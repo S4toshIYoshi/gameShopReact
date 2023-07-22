@@ -1,0 +1,15 @@
+$secondary: #57B8FF;
+$text: #FFF;
+$textSecondary: #80858F;
+$fonts: #000000;
+$fontsSecondary: #222730;;
+$linkActive: #FAC422;
+
+@mixin font($size, $lineH, $color:#fff) {
+    color: $color;
+    font-family: Orbitron;
+    font-size: $size;
+    font-style: normal;
+    font-weight: 400;
+    line-height: $lineH;
+}

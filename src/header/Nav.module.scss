@@ -1,0 +1,25 @@
+@import "../vars.scss";
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3.75rem;
+
+    li a{
+        @include font(1rem, 1.625rem);
+    }
+}
+
+.rightMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2.5rem;
+}

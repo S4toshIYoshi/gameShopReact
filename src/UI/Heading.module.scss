@@ -1,0 +1,13 @@
+@import "../vars.scss";
+
+.wrapperHeading {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.heading {
+    @include font(1rem, 1rem, $secondary);
+    text-transform: uppercase;
+}
+

@@ -1,19 +1,23 @@
-
+import Backet from "../UI/Backet"
+import Button from "../UI/Button"
+import LogoIcon from "../UI/LogoIcon"
+import style from "./Nav.module.scss"
 
 const Nav = () => {
     return (
-    <nav>
-        <a href="#">.logo.</a>
-        <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Team</li>
-            <li>Shop</li>
-            <li>Pages</li>
+    <nav className={style.nav}>
+        <a href="#"><LogoIcon /></a>
+        <ul className={style.links}>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Pages</a></li>
         </ul>
-
-        <div /*className={style.backet}*/>backet</div>
-        <div>Contact Us</div>
+        <div className={style.rightMenu}>
+            <Backet count={0}/>
+            <Button typeB="light">Contact Us</Button>
+        </div>
     </nav>
     )
 }
