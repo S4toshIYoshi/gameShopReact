@@ -1,13 +1,8 @@
-import styles from "./Heading.module.scss"
-import FireIcon from "./FireIcon";
+import style from "./Heading.module.scss"
 
-const Heading = ({children}) => {
-    return (
-        <span className={styles.wrapperHeading}>
-            <FireIcon />
-            <h3 className={styles.heading}>{children}</h3>
-        </span>
-    );
+const Heading = ({mt=0, children}) => {
+
+    return<h2 className={style.heading} style={{marginTop: `${mt}px`}}>{children}</h2>
 }
 
-export default Heading;
+export default Heading

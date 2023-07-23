@@ -1,3 +1,4 @@
+import Container from "../layout/Container"
 import Backet from "../UI/Backet"
 import Button from "../UI/Button"
 import LogoIcon from "../UI/LogoIcon"
@@ -5,6 +6,7 @@ import style from "./Nav.module.scss"
 
 const Nav = () => {
     return (
+        <Container>
     <nav className={style.nav}>
         <a href="#"><LogoIcon /></a>
         <ul className={style.links}>
@@ -19,6 +21,7 @@ const Nav = () => {
             <Button typeB="light">Contact Us</Button>
         </div>
     </nav>
+    </Container>
     )
 }
 

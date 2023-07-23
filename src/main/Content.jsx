@@ -1,5 +1,5 @@
 import Button from "../UI/Button"
-import Heading from "../UI/Heading"
+import Heading from "../UI/FireText"
 import SectionOne from "./SectionOne"
 import SectionTwo from "./SectionTwo"
 

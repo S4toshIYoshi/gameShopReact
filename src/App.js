@@ -1,13 +1,16 @@
 import './App.css';
 import Footer from './footer/Footer';
 import Header from './header/Header';
+import Nav from './header/Nav';
 import Content from './main/Content';
+import SectionOne from './main/SectionOne';
 
 function App() {
   return (
     <div className="App">
+      <Nav />
       <Header />
-      <Content />
+      <SectionOne />
       <Footer />
     </div>
   );

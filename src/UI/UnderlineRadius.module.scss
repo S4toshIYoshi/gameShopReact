@@ -1,0 +1,11 @@
+.wrapper {
+    position: relative;
+    display: inline-flex;
+    flex-flow: column nowrap;
+    align-items: center;
+
+    img {
+        position: absolute;
+        bottom: -10px;
+    }
+}
