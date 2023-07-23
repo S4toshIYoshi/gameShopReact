@@ -1,11 +1,11 @@
 import styles from "./FireText.module.scss"
 import FireIcon from "./FireIcon";
 
-const FireText = ({children}) => {
+const FireText = ({fire = true, children}) => {
     return (
         <span className={styles.wrapperHeading}>
-            <FireIcon />
-            <h3 className={styles.heading}>{children}</h3>
+            {fire && <FireIcon />}
+            <h3 className={styles.heading} style={{marginLeft: "8px"}}>{children}</h3>
         </span>
     );
 }

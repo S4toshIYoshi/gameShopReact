@@ -14,7 +14,6 @@ const SectionOne = () => {
             <Container>
                 <div className={style.content}>
                     <img src={image} alt="image robot" />
-
                     <div className={style.wrapper}>
                         <FireText>FUTURE OF eSPORTS</FireText>
                         <Heading>Customize your Own Character</Heading>

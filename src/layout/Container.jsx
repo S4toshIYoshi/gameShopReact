@@ -1,4 +1,4 @@
-const Container = ({widthC=90, mt=0, mb=0,children}) => {
+const Container = ({widthC=80, mt=0, mb=0,children}) => {
     return <div style={{margin: `${mt}px auto ${mb}px auto`, width: `${widthC}%`}}>{children}</div>
 }
 

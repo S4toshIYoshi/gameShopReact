@@ -1,0 +1,24 @@
+.section {
+    background-color: #000000;
+
+    margin: 130px auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.wrapperNews {
+    margin-top: 74px;
+
+    display: grid;
+    grid-template-areas: "im0 im1 im2" "im0 im3 im4";
+    column-gap: 24px;
+    row-gap: 38px;
+}
