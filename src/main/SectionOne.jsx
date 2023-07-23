@@ -4,8 +4,11 @@ import image from "../images/sectionOneLead.png"
 import FireText from "../UI/FireText"
 import Heading from "../UI/Heading"
 import Description from "../UI/Description"
+import Gallery from "../UI/Gallery"
+import { imageGallery } from "../data/imageObj"
 
 const SectionOne = () => {
+
     return (
         <section className={style.section}>
             <Container>
@@ -16,7 +19,7 @@ const SectionOne = () => {
                         <FireText>FUTURE OF eSPORTS</FireText>
                         <Heading>Customize your Own Character</Heading>
                         <Description boxWidth={561} mt={38}>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae.</Description>
-
+                        <Gallery images={imageGallery} mt={54}/>
                     </div>
                 </div>
             </Container>
