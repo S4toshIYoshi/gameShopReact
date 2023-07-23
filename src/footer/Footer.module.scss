@@ -1,0 +1,19 @@
+.footer {
+    background-color: #222730;
+    width: auto;
+    height: auto;
+    padding-top: 129px;
+    padding-bottom: 175px;
+}
+
+.shortInformation{
+    display: flex;
+    flex-flow: column;
+}
+
+.wrapper {
+    display: flex;
+    column-gap: 150px;
+    align-items: center;
+    /*129 175*/
+}
