@@ -17,3 +17,28 @@
     align-items: center;
     /*129 175*/
 }
+
+@media (max-width: 1034px) {
+    .wrapper{
+        column-gap: 10%;
+    }
+}
+
+@media (max-width: 900px) {
+    .footer {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .wrapper{
+        column-gap: normal;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 725px) {
+    .wrapper{
+        flex-flow: column;
+        align-items: flex-start;
+    }
+}

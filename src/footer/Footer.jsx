@@ -1,4 +1,4 @@
-import { linksFooterMenu, linksFooterOther } from "../data/linksFooter"
+import { linksFooterMenu, linksFooterOther } from "../data/links"
 import Container from "../layout/Container"
 import Description from "../UI/Description"
 import FooterLinks from "../UI/FooterLinks"
@@ -10,7 +10,7 @@ const Footer = () => {
     <footer className={style.footer}>
         <Container>
             <div className={style.wrapper}>
-                <div className={style.shortInformation}>
+            <div className={style.shortInformation}>
                 <span width="170px" height="48px"><LogoIcon /></span>
                 <Description mt={35} fsize={0.9375} boxWidth={289}>
                     Lorem ipsum dolor amet, consectetur adipiscing elit. Eget nisl nunc quam ac sed turpis volutpat. Cursus sed massa non .

@@ -9,6 +9,12 @@
     width: 100%;
 
 }
+@media (min-width:1600px) {
+        .header{
+            row-gap: 300px;
+            justify-content: space-between;
+        }
+    }
 
 
 .description {
@@ -29,6 +35,10 @@
     
 }
 
+.wrapperDescription {
+    width: 615px;
+}
+
 .buttonDescription {
     @include font(1.125rem, 1.75rem);
 }
@@ -47,4 +57,29 @@
     height: 518px;
     flex-shrink: 0;
 
+}
+
+@media (max-width: 1440px) {
+    .header{
+        justify-content: space-between;
+    }
+    .leftBlock{
+        width: 48%;
+    }
+    .rightBlock{
+        width: 48%;
+    }
+
+    .wrapperDescription {
+        width: 95%;
+    }
+}
+
+@media (max-width: 1044px) {
+    .rightBlock {
+        display: none;
+    }
+    .leftBlock {
+        width: 90%;
+    }
 }

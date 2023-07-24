@@ -15,9 +15,11 @@ const Header = () => {
             <div className={style.leftBlock}>
                 <FireText>FUTURE OF eSPORTS</FireText>
                 <Heading mt={24}>Unleash the Next <UnderlineRadius>Generation</UnderlineRadius> of Gaming</Heading>
-                <Description fsize={1.125} boxWidth={615} mt={45}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis, nec donec in morbi pulvinar. Enim non pulvinar neque.</Description>
+                <div className={style.wrapperDescription}>
+                    <Description fsize={1.125} mt={45}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis, nec donec in morbi pulvinar. Enim non pulvinar neque.</Description>
+                </div>
                 <div className={style.wrapperButton}>
-                    <Button>Explore More</Button>
+                    <Button actionHandler={() => console.log("Explore More")}>Explore More</Button>
                     <p className={style.buttonDescription}>View our team</p>
                 </div>
             </div>

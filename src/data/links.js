@@ -1,3 +1,26 @@
+export const linksMenu = [
+    {
+        url: "#",
+        name: "Home",
+    },
+    {
+        url: "#",
+        name: "About",
+    },
+    {
+        url: "#",
+        name: "Team",
+    },
+    {
+        url: "#",
+        name: "Shop",
+    },
+    {
+        url: "#",
+        name: "Pages",
+    },
+]
+
 export const linksFooterMenu = [
     {
         url: "#",

@@ -6,4 +6,72 @@
     display: flex;
     align-items: center;
     column-gap: 128px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.wrapperDescription{
+    width: 561px;
+}
+
+@media (min-width: 1600px) {
+    .content{
+        justify-content: space-between;
+    }
+    
+}
+
+@media (max-width: 1440px) {
+    .content {
+        column-gap: normal;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 1314px){
+    .content {
+        width: 100%;
+    }
+    .wrapper {
+        width: 50%;
+    }
+}
+
+@media (max-width: 1177px) {
+    .wrapperGallery{
+        display: none;
+    }
+
+    .wrapperDescription{
+        width: 90%;
+    }
+
+    .wrapper {
+        width: 40%;
+        
+    }
+}
+
+@media (max-width: 1044px) {
+    .content {
+        width: 80%;
+        margin: 0 auto;
+        padding: 60px 0;
+    }
+    .leadImg{
+        display: none;
+    }
+    
+    .wrapperGallery {
+        display: block;
+    }
+    .wrapper {
+        width: 100%;
+    }
+}
+
+@media (max-width: 725px) {
+    .wrapperGallery {
+        display: none;
+    }
 }

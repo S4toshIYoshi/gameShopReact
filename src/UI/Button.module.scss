@@ -2,6 +2,11 @@
 
 
 .origin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: nowrap;
+
     @include font(1.125rem, 1.75rem);
     background-color: $secondary;
     padding: 1.31rem 2.13rem;
@@ -14,4 +19,13 @@
 
     border: 1px solid #FFF;
 
+}
+
+@media (max-width: 918px) {
+    .origin{
+        padding: 10px 20px;
+    }
+    .light {
+        padding: 10px 20px;
+    }
 }

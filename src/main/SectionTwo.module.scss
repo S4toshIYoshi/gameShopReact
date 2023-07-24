@@ -8,11 +8,18 @@
     align-items: center;
 }
 
+.wrapperSection {
+    display: flex;
+    flex-flow: column;
+}
+
 .wrapper {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
 }
+
+
 
 .wrapperNews {
     margin-top: 74px;
@@ -21,4 +28,18 @@
     grid-template-areas: "im0 im1 im2" "im0 im3 im4";
     column-gap: 24px;
     row-gap: 38px;
+    justify-content: space-between;
+}
+
+@media (min-width: 1600px) {
+    .wrapperNews{
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 1466px) {
+    .wrapperNews{
+        overflow-x: scroll;
+        width: 100%;
+    }
 }

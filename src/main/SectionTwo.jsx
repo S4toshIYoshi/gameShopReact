@@ -10,16 +10,20 @@ const SectionTwo = () => {
     return (
         <section className={style.section}>
             <Container>
-                <FireText>FUTURE OF eSPORTS</FireText>
-                <div className={style.wrapper}>
-                    <Heading>Latest News & <br />Articles</Heading>
-                    <Button>Read More</Button>
+                <div className={style.wrapperSection}>
+                    <FireText>FUTURE OF eSPORTS</FireText>
+                    <div className={style.wrapper}>
+                        <Heading>Latest News & <br />Articles</Heading>
+                        <Button>Read More</Button>
+                       
+                    </div>
+                    <div className={style.wrapperNews}>
+                        {imageNews.map((el, idx) => {
+                            return <NewsCard key={idx} size={el.size} headline={el.heading} date={el.data} image={el.url} imageAlt={el.heading} idx={idx}/>
+                        })}
+                    </div>
                 </div>
-                <div className={style.wrapperNews}>
-                    {imageNews.map((el, idx) => {
-                        return <NewsCard key={idx} size={el.size} headline={el.heading} date={el.data} image={el.url} imageAlt={el.heading} idx={idx}/>
-                    })}
-                </div>
+                
             </Container>
         </section>
     )

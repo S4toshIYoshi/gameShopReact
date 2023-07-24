@@ -14,3 +14,9 @@
 .headingH3 {
     @include font(2.25rem, 2.875rem);
 }
+
+@media (max-width: 918px) {
+    .heading{
+        font-size: 48px;
+    }
+}
