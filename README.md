@@ -1,3 +1,8 @@
+# deploy web-site
+link: https://s4toshiyoshi.github.io/gameShopReact/
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
